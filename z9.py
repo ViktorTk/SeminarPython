@@ -10,7 +10,7 @@
 
 n = int(input('Введите число: '))
 i = int(1)
-while i > n:
+while n > 1:
     i *= n
     n -= 1
 print(i)
