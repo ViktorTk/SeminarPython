@@ -8,24 +8,19 @@
 
 
 
-A = int(input('Введите число: '))
-fib1 = 1
-fib2 = 1
-i = 3
-if A == fib1: print('номер числа по счету чисел Фибоначчи ')
-while A >= i:
-    fibsum = fib1 + fib2
-    fib1 = fib2
-    fib2 = fibsum
-    if fibsum == A:
-        print(f'является {i+1} числом Фибоначчи')
-        break
-    elif A < fibsum:
-        print('-1')
-        break
-    else: i += 1
-
-
-
-
-
+# A = int(input('Введите число: '))
+# fib1 = 1
+# fib2 = 1
+# i = 3
+# if A == fib1: print('номер числа по счету чисел Фибоначчи ')
+# while A >= i:
+#     fibsum = fib1 + fib2
+#     fib1 = fib2
+#     fib2 = fibsum
+#     if fibsum == A:
+#         print(f'является {i+1} числом Фибоначчи')
+#         break
+#     elif A < fibsum:
+#         print('-1')
+#         break
+#     else: i += 1
